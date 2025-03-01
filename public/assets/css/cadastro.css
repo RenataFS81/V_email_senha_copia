@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    padding: 20px;
+    text-align: center;
+    font-family: "Inter", sans-serif;
+}
+
+/* Centralizando a section */
+.cadastrar2 {
+    width: 50%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+/* Estilizando o form com borda */
+form {
+    width: 100%;
+    max-width: 600px;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    background: white;
+}
+
+/* Ajuste de labels */
+.labform {
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+/* Inputs */
+.form-control-lg {
+    width: 100%;
+    height: 45px;
+    font-size: 18px;
+    border: 2px solid #efeaea;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.form-group button {
+    display: block;
+    margin-left: auto;
+}
+
+/* Botão */
+button {
+    width: 40%;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #5f5d9d;
+    font-size: large;
+    color: #fff;
+}
