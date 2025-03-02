@@ -8,10 +8,10 @@
     <title>Cadastro</title>
 </head>
 <body>
-    <h1 class="text-center">Cadastro</h1>
-    
     <section class="cadastrar2">
-        <form>
+        
+        <form id="cadastro-form">
+            <h1 class="text-center">Cadastro</h1>
             <div class="form-row justify-content-center">
                 <div class="form-group col-md-5">
                     <label class="labform" for="name">Nome:</label>
@@ -33,13 +33,28 @@
                 <input type="tel" class="form-control form-control-lg" id="tel" placeholder="Digite seu telefone" required>
             </div>
 
-            <div class="form-group text-right">
-                <button type="submit" class="btn btn-primary">Enviar</button>
+            <div class="form-group col-md-5">
+                <label class="labform" for="senha">Senha:</label>
+                <input type="password" class="form-control form-control-lg" id="password" placeholder="******" required>
             </div>
-            
+
+            <div class="form-group col-md-5">
+                <label class="labform" for="confirmPassword">Confirme Senha:</label>
+                <input type="password" class="form-control form-control-lg" id="confirmPassword" placeholder="*****" required>
+            </div>
+
+            <div class="form-group text-right">
+                <button type="submit" class="btn btn-primary">Cadastrar</button>
+            </div>
+
         </form>
+
+        <!-- Local para exibir mensagens de sucesso ou erro -->
+        <div id="mensagem" class="text-center"></div>
+
     </section>
 
     <script src="public/assets/bootstrap-4.0.0/js/bootstrap.min.js"></script>
+    <script src="cadastro.js"></script>
 </body>
 </html>

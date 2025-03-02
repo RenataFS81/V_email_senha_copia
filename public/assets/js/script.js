@@ -25,5 +25,5 @@ loginForm.addEventListener("submit", (event) => {
     }
     // Se for bem-sucedido
     alert("Login realizado com sucesso!");
-    window.location.href = "index.html"; // Redirecionamento para uma página fictícia
+    window.location.href = "https://www.google.com.br/"; // Redirecionamento para uma página fictícia
 });
