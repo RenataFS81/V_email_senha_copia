@@ -12,30 +12,28 @@ h1 {
     font-family: "Inter", sans-serif;
 }
 
-/* Centralizando a section */
 .cadastrar2 {
     width: 50%;
     margin: 0 auto;
     display: flex;
     justify-content: center;
 }
+
 .cadastrar2 h1{
     display: flex;
     justify-content: center;
-    
 }
 
-/* Estilizando o form com borda */
 form {
     width: 100%;
     max-width: 600px;
     border: 2px solid #ccc;
     border-radius: 8px;
+    margin:  50px  10px;
     padding: 20px;
     background: white;
 }
 
-/* Ajuste de labels */
 .labform {
     display: flex;
     justify-content: flex-start;
@@ -43,7 +41,6 @@ form {
     font-weight: bold;
 }
 
-/* Inputs */
 .form-control-lg {
     width: 100%;
     height: 45px;
@@ -58,7 +55,6 @@ form {
     margin-left: auto;
 }
 
-/* Botão */
 button {
     width: 40%;
     padding: 10px;
